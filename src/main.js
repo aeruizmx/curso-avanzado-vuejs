@@ -7,7 +7,8 @@ import BootstrapVue from 'bootstrap-vue'
 // Traer el css
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-
+// CSS global
+import './assets/css/main.styl'
 // Darlo de alta
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
